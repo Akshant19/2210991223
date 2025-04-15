@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import PostCard from "@/components/PostCard";
-import { getFeed } from "@/lib/api";
+import { getFeed } from "@/lib/api"; 
 
 export default function Home() {
   const [posts, setPosts] = useState([]);
